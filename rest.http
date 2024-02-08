@@ -1,0 +1,12 @@
+###
+POST http://localhost:8000/order-service/4d5b2aa8-524e-43a3-9d53-5828b0910fe2/orders
+content-type: application/json
+
+{
+  "productId": "CATALOG-001",
+  "qty": 13,
+  "unitPrice": 1500
+}
+
+###
+GET http://localhost:8000/order-service/5be1867b-7666-4591-9b59-5d57eeb8a327/orders
